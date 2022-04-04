@@ -42,7 +42,7 @@
 * 레이아웃 구성 예상도
 <table>
   <tr>
-    <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161485314-6f3f7673-75df-4662-a231-f8feb80c630a.png" height="640" width="360"> </td>
+    <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161491321-8d42c1eb-d702-4a01-be5c-b54374b3f612.png" height="640" width="360"> </td>
     <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161485364-6c60ed1c-2bcf-4c43-b630-af456a85057b.png" height="640" width="360"> </td>
   </tr>
   </table>
