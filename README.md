@@ -36,16 +36,20 @@
 <br>
 
 ---
-
-<br>
-
-* 레이아웃 구성 예상도
+ <br>
+<h2> 레이아웃 구성 예상도 </h2>
 <table>
   <tr>
     <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161491321-8d42c1eb-d702-4a01-be5c-b54374b3f612.png" height="640" width="360"> </td>
     <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161485364-6c60ed1c-2bcf-4c43-b630-af456a85057b.png" height="640" width="360"> </td>
   </tr>
   </table>
+  <br>
+<b>중요도에 따라 번호와 색상이 매겨짐.</b>
+
+중요도 높음 => 1 <br>
+중요도 중간 => 2<br>
+중요도 낮음 => 3<br>
   
 ---
 
