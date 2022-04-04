@@ -1,0 +1,16 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">ToDoList</string>
+
+    <!-- MainActivity Text -->
+    <string name="add_todo">할 일 추가하기</string>
+
+    <!-- AddTodoActivity Text -->
+    <string name="title"> 제목 </string>
+    <string name="hint_title"> 해야 할 일이 무엇인가요? </string>
+    <string name="importance"> 중요도 </string>
+    <string name="importance_low">낮음</string>
+    <string name="importance_middle">중간</string>
+    <string name="importance_high">높음</string>
+    <string name="completion"> 완료 </string>
+</resources>
