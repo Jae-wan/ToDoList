@@ -14,6 +14,11 @@
 > Alert Dialog : 사용자의 의사를 물어보는 대화 상자 (팝업) <br>
 > viewBinding : 뷰를 더 편리하게 사용할 수 있는 라이브러리 (기존의 코틀린 익스텐션 대체) <br>
 
+> * Room 지속성 라이브러리 사용을 위한 'kotlin-kapt' 플러그인 추가 <br>
+> => <b> [KAPT : Kotlin Annotation Processing Tool에 대해서](https://timradder.tistory.com) </b>
+
+
+
 > * <b> 코어기능 </b>
 >     * 할 일 리스트 보기 (To Do List)
 >     * 할 일 추가 (Add)
@@ -44,4 +49,62 @@
   
 ---
 
+
 <h2> 사전 작업 - 1 </h2>
+
+* viewBinding Config
+
+```kotlin
+
+android{
+  ... 생략 ...
+  defaultConfig {
+  ... 생략 ...
+  }
+  buildFeatures {
+    viewBinding true
+  }
+}
+  
+```
+
+
+<h2> 사전 작업 - 2 </h2>
+
+* Room Library Config <br>
+아래와 같이 추가
+
+```kotlin
+// module 수준의 build.gradle
+plugins {
+  ... 생략 ...
+    id 'kotlin-kapt' 
+}
+
+    ... 생략 ...
+
+// module 수준의 build.gradle
+dependencies {
+  ... 생략 ...
+    def room_version ="2.3.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+  ... 생략 ...
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
