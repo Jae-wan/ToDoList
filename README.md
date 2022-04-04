@@ -8,11 +8,11 @@
 > * minSdk : 26
 > targetSdk : 31
 
-> * <b> 핵심 구성요소 </b>
-> Recycler View : View를 재활용(Recycle)하여 리스트뷰보다 더 효율적으로 리스트를 보여주는 뷰를 활용
-> Room 지속성 라이브러리 : Local DataBase 구축을 도와주는 라이브러리
-> Alert Dialog : 사용자의 의사를 물어보는 대화 상자 (팝업)
-> viewBinding : 뷰를 더 편리하게 사용할 수 있는 라이브러리 (기존의 코틀린 익스텐션 대체)
+> * <b> 핵심 구성요소 </b>  <br>
+> Recycler View : View를 재활용(Recycle)하여 리스트뷰보다 더 효율적으로 리스트를 보여주는 뷰를 활용 <br>
+> Room 지속성 라이브러리 : Local DataBase 구축을 도와주는 라이브러리 <br>
+> Alert Dialog : 사용자의 의사를 물어보는 대화 상자 (팝업) <br>
+> viewBinding : 뷰를 더 편리하게 사용할 수 있는 라이브러리 (기존의 코틀린 익스텐션 대체) <br>
 
 > * <b> 코어기능 </b>
 >     * 할 일 리스트 보기 (To Do List)
@@ -41,3 +41,7 @@
     <td><img alt="" src="https://user-images.githubusercontent.com/57258381/161485364-6c60ed1c-2bcf-4c43-b630-af456a85057b.png" height="640" width="360"> </td>
   </tr>
   </table>
+  
+---
+
+<h2> 사전 작업 - 1 </h2>
