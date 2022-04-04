@@ -13,4 +13,6 @@
     <string name="importance_middle">중간</string>
     <string name="importance_high">높음</string>
     <string name="completion"> 완료 </string>
+    <string name="app_develop">App Develop</string>
+    <string name="_2">2</string>
 </resources>
