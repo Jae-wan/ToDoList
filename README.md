@@ -17,7 +17,17 @@
 > * Room 지속성 라이브러리 사용을 위한 'kotlin-kapt' 플러그인 추가 <br>
 > => <b> [KAPT : Kotlin Annotation Processing Tool에 대해서](https://timradder.tistory.com) </b>
 
+<br>
 
+<h2> <b> What is this Application ? </b> </h2>
+
+* To Do List (할 일 리스트) 앱은 스케줄을 관리하거나 메모용으로 사용할 수 있는 리스트 앱입니다. <br>
+* Room 지속성 라이브러리를 통하여 앱 내에서 사용할 DB를 구축하였기 때문에 서버나 원격DB를 구축하지 않아도 필요한 정보를 저장할 수 있습니다. <br>
+* 할 일을 QUERY / ADD / DELETE 할 수 있습니다. <br>
+* * Recycler View로 구축하였으며, 이를 통해 조회된 데이터를 리스트로 보여줄 수 있습니다. <br>
+
+<h2> </h2>
+<br>
 
 > * <b> 코어기능 </b>
 >     * 할 일 리스트 보기 (To Do List)
@@ -35,8 +45,10 @@
 
 <br>
 
----
+<h2> </h2>
+
  <br>
+ 
 <h2> 레이아웃 구성 예상도 </h2>
 <table>
   <tr>
